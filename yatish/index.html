@@ -1,1 +1,230 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="alternate" title="The form element"
+  href="https://example.com/en/form" hreflang="en">
+<link rel="alternate" title="Das Formularelement"
+  href="https://example.com/de/form" hreflang="de">
+  <style>
+    body{
+        display:flex;
+        flex-direction:column;
+        margin:0;
+        background-color: black;
+    }
+   .container1{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(18, 19, 20);
+    padding:10px 200px;
+   }
+   .Nav{
+    color:white;
+    display: flex;
+    margin-bottom: 20px;
+   }
+   .Description{
+    display: flex;
+    color:white;
+    gap:15em;
+    margin-bottom:50px;
+   }
+   .InsideNav{
+    margin-right:10px;
+   }
+   button{
+    background-color: rgb(87, 87, 245);
+    cursor: pointer;
+    color:white;
+    padding:5px;
+    border:none;
+    border-radius: 10%;
+    
+   }
+   .about{
+    padding:5px;
+   }
+   .about p{
+    font-size: 30px;
+    margin:0;
+    margin-bottom:7px;
+   }
+   .HeaderLogo{
+    flex-grow:1;
+    cursor:pointer;
+   }
+   #one{
+    font-size:10px;
+   }
+   .random{
+    font:36px bold;
+    margin-bottom: 20px;
+   }
+   .image{
+    color:grey;
+    text-align:center;
+    margin:4px;
+    width:50%;
+    height:10vh;
+    padding:5px;
+    font-size:10px;
+    margin-left:100px;
+    padding-top:30px;
+    background-color: aqua;
+   }
+   .container2{
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+   }
+   .Boxes{
+    display:flex;
+    margin:50px;
+    justify-content: center;
+    gap:1em;
+   }
+   .random{
+    display:flex;
+    justify-content:center;
+   }
+   .square{
+    width:100px;
+    height:100px;
+    border:2px solid rgb(0, 195, 255);
+    border-radius:20%;
+   }
+   .parasquare{
+    width:min-content;
+   }
+   .myPara{
+    font-size:10px;
+    color:grey;
+    text-align:center;
+    margin:0;
+   }
+   .container3{
+    background-color:rgb(214, 212, 212);
+    padding:20px;
+    text-align: center;
+    font-style:italic;
+    overflow:auto;
+   }
+   .paaara{
+    margin-top:10px;
+    display:flex;
+    justify-content: flex-end;
+   }
+   .paaara div{
+    width:50%;
+    text-align: center;
+   }
+   .container4{
+ background-color: white;
+   }
+   .blueContainer{
+    background-color: rgb(0, 89, 255);
+    display:flex;
+    padding:20px;
+    margin:100px;
+    justify-content: space-evenly;
+    color:white;
+   }
+   #two{
+    border:1px solid white;
+    border-radius: 40%;
+    cursor:pointer;
+   }
+   .container5{
+    background-color: rgb(3, 3, 3);
+    color:white;
+    padding:6px;
+    text-align:center;
 
+   }
+
+  </style>
+</head>
+<body>
+  <div class="container1">
+    <div class="Nav">
+        <div class="InsideNav HeaderLogo">
+            <strong>Header Logo</strong>
+        </div>
+        <div class="InsideNav">Link one</div>
+        <div class="InsideNav">Link two</div>
+        <div class="InsideNav">Link three</div>
+    </div>
+
+    <div class="Description">
+      <div class="about">
+        <p>About the webpage</p>
+        <p id="one">No Description for the website but please signup </p>
+        <button type="button"> Sign up</button>
+      </div>
+      <div class="image">
+           This is a place holder for image
+      </div>
+    </div>
+
+  </div>
+  <div class="container2">
+  <div class="random">
+    Some Random Information
+  </div>
+  <div class="Boxes">
+    <div class="parasquare">
+        <div class="square"></div>
+        <p class="myPara"> This is my Para</p>
+    </div>
+    <div class="parasquare">
+        <div class="square"></div>
+        <p class="myPara"> This is my Para</p>
+    </div>
+    <div class="parasquare">
+        <div class="square"></div>
+        <p class="myPara"> This is my Para This is my Para This is my Para This is my Para</p>
+    </div>
+    <div class="parasquare">
+        <div class="square"></div>
+        <p class="myPara"> This is my Para</p>
+    </div>
+  </div>
+  </div>
+  <div class="container3">
+    <div class="Para1">
+        us iusto quis veritatis. Quas minima nisi omnis odit iusto natus consectetur fugit itaque.
+        Explicabo perspiciatis sunt deleniti saepe, eligendi exercitationem corrupti minima perferendis veniam quibusdam similique id alias nulla non ratione. Doloremque consequuntur cupiditate, maxime culpa alias cumque. Facere aliquid voluptate possimus. Quo.
+
+    </div>
+    <div class="paaara">
+        <div>
+            <strong>- By PacMan</strong>
+        </div>
+    </div>
+  </div>
+  <div class="container4">
+        <div class="blueContainer">
+            <div class="info">
+               <div class="call">
+                Call for people! Sign Up!<br>
+                Yo! Yo !
+                </div>
+            </div>
+            <div class="signup">
+              <button id="two" type="button">Sign up</button>
+            </div>
+        </div>
+  </div>
+  <footer class="container5">
+    Copyright &copy; The Odin Project 2023  
+  </footer>
+
+        
+
+      
+</body>
+</html>
