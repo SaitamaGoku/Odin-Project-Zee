@@ -1,0 +1,146 @@
+
+.logo{
+  color:#f9faf8;
+  font-size: 24px;
+  /* float: left; */
+}
+.header-wrapper{
+  /* width:100vw; */
+  margin-top: 3vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.links a{
+  /* float:right; */
+  margin-right: 10px;
+  font-size: 18px;
+  color:#e5e7eb;
+}
+.top{
+  display:flex;
+  flex-direction: column;
+  min-height: 350px;
+  /* align-items: center; */
+  background-color: #1F2937 ;
+}
+.top-content{
+  /* width:100vw; */
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw; 
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content:space-between;
+  /* flex-wrap: wrap; */
+  gap:200px;
+}
+.left-top{
+  display: flex;
+  flex-direction: column;
+}
+#heading{
+  font-size: 48px;
+  font-weight: 800;
+  color:#f9faf8;
+  margin: 0px;
+}
+.right-top{
+  /* width:100px; */
+  align-self: center;
+}
+.box-wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+}
+.box-content{
+  
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+  /* padding: 5px; */
+}
+.box{
+  height: 120px;
+  width: 120px;
+  margin-bottom: 2px;
+  border: 3px solid #3882f6;
+  border-radius: 10%;
+}
+.random{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 350px;
+  /* gap:20px; */
+}
+.quote{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 350px;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+.quote p{
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color:#1f2937;
+  text-align: center;
+  margin-top: 3vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+footer{
+  display:flex;
+  flex-direction: column;
+  /* height: 50vh; */
+  align-items: center;
+  background-color: #1F2937 ;
+  font-size: 18px;
+  color:#e5e7eb;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+.card-content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:200px;
+  min-height: 350px;
+}
+.card{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  min-height: 25vh;
+  min-width: 60vw;
+  border-radius: 20px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+}
+.left-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap:0;
+}
+.right-card{
+  align-self: center;
+}
+.card-heading{
+  font-size: 24px;
+  font-weight: 500;
+  color:#f9faf8;
+  margin-bottom: 5px;
+}
+.card-desc{
+  color:#f9faf8;
+  font-size: 12px;
+  margin-top: 2px;;
+}
