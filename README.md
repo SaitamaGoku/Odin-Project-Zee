@@ -1,12 +1,17 @@
+# The Odin Project - React - Pranav Nampally
 
-# Odin Project Assignment
+The Odin Project React website.
 
-This repository contains codes of the user who have completed their odin Assignment
+## 🔗 Links
 
+[Link to the Website](https://saitamagoku.github.io/OdinProject-Flex/)
 
-## Documentation
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/pranav-nampally-7406b41a7)
 
-Please check the individual folder for respective code base. They have provided html along with the css.
+## Screenshots
 
+![App Screenshot](https://github.com/SaitamaGoku/OdinProject-Flex/blob/main/saitamagoku.github.io_OdinProject-Flex_.png?raw=true)
 
+## Tech Stack
 
+**Client:** React, CSS
